@@ -1,0 +1,67 @@
+/* css reset */
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+/* 頁首 */
+.header{
+    background-color: rgb(218, 212, 212);
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+}
+.nav-menu ul{
+    margin: 0;
+    list-style: none;
+    float: right;
+}
+.nav-menu img.logo{
+    float: left;
+}
+.nav-menu ul li{
+    padding: 19px 15px;
+    float: left;
+}
+.nav-menu ul li:hover{ 
+    background-color: #b4b4b4;
+}
+
+
+/* 內文 */
+.content{
+    background-color: darkgray;
+    width:1300px;
+    padding: 60px 0px;
+    margin: auto;
+}
+h1{
+    color: cornflowerblue;
+}
+
+.container{
+    background-color: darkgreen;
+    display: inline-block;
+}
+
+.col{
+    background-color: darkgoldenrod;
+    width: 350px;
+    height: 300px;
+    margin: 31.5px;   /* 和其他物件距離 */
+    padding: 10px;  /* 邊界 */
+    float: left;
+}
+.col img{
+    width: 100%;   /* 圖片滿版 */
+}
+
+/* 頁尾 */
+.footer{
+    background-color: rgb(218, 212, 212);
+    width: 100%;
+    height: 60px;
+    z-index: 1;
+}
